@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İki Kişilik Oyun</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+        #gameArea {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameArea">
+        <button onclick="startGame()">Oyunu Başlat</button>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
